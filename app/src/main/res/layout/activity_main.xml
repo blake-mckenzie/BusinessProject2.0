@@ -28,24 +28,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/shop"
-        android:layout_marginTop="-13dp"
+        android:layout_marginTop="-16dp"
         android:fontFamily="sans-serif-black"
         android:paddingTop="20dp"
         android:text="Smoove EZ offers a unique blend of healthy alternatives while still offering mouthwatering items. "
         android:textSize="18sp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <ImageView
+        android:id="@+id/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
