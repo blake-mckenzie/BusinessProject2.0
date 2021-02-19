@@ -70,24 +70,43 @@
         android:paddingTop="5dp"
         android:text="Battle Creek, MI"
         android:textSize="18sp" />
+    <TextView
+        android:id="@+id/hrs_of_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/border"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginRight="7dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="5dp"
+        android:text="Hours of Operation"
+        android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/days_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hrs_of_operation"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="9dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="5dp"
+        android:text="Monday-Saturday"
+        android:textSize="18sp" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/days_open"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="serif-monospace"
+        android:paddingTop="5dp"
+        android:text="6AM-9PM"
+        android:textSize="18sp" />
 </RelativeLayout>
 
