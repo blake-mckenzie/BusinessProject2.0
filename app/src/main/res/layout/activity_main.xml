@@ -50,6 +50,15 @@
         android:paddingTop="5dp"
         android:text="269-999-9999"
         android:textSize="18sp" />
-
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="27dp"
+        android:fontFamily="serif-monospace"
+        android:paddingTop="5dp"
+        android:text="SmooveEZ@gmail.com"
+        android:textSize="18sp" />
 </RelativeLayout>
 
